@@ -1,0 +1,11 @@
+# Smithery MCP Server Configuration
+# https://smithery.ai/docs/config#smitheryyaml
+
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties: {}
+  commandFunction:
+    |-
+    (config) => ({ command: 'node', args: ['src/index.js'] })

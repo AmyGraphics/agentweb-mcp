@@ -1,0 +1,28 @@
+{
+  "name": "agentweb-mcp",
+  "version": "1.0.0",
+  "description": "Universal AI Web Intelligence, Clean Markdown Extractor, and Security MCP Server for Claude, Cursor, and Autonomous AI Agents",
+  "main": "src/index.js",
+  "bin": {
+    "agentweb-mcp": "src/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "claude",
+    "cursor",
+    "web-scraper",
+    "markdown",
+    "contacts",
+    "ai-agent"
+  ],
+  "author": "tofan96you",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1"
+  }
+}
