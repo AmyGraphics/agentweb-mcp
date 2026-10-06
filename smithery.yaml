@@ -1,11 +1,18 @@
-# Smithery MCP Server Configuration
-# https://smithery.ai/docs/config#smitheryyaml
-
+name: agentweb-mcp
+displayName: AgentWeb - AI Web Intelligence & Scraper MCP
+description: Universal AI Web Intelligence, Clean Markdown Extractor, and Security MCP Server for Claude, Cursor, and Autonomous AI Agents.
+category: developer-tools
+homepage: https://github.com/AmyGraphics/agentweb-mcp
+repository: https://github.com/AmyGraphics/agentweb-mcp
+icon: https://raw.githubusercontent.com/AmyGraphics/agentweb-mcp/main/icon.png
+keywords:
+  - web-scraper
+  - markdown
+  - b2b-contacts
+  - json-repair
+  - mcp
+  - claude
+  - cursor
 startCommand:
-  type: stdio
-  configSchema:
-    type: object
-    properties: {}
-  commandFunction:
-    |-
-    (config) => ({ command: 'node', args: ['src/index.js'] })
+  type: http
+  url: https://agentweb-api.agentweb-hub.workers.dev/mcp
