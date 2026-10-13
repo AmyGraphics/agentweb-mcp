@@ -1,62 +1,60 @@
-# AgentWeb & Guard MCP Server ⚡🛡️
+# AgentWeb MCP Hub ⚡🛡️
 
-Universal Model Context Protocol (MCP) server for **Claude Desktop, Cursor, Windsurf, and Autonomous AI Agents**.
+**85 production MCP servers** for Claude Desktop, Cursor, Windsurf and autonomous AI agents.
 
-Provides instant access to:
-- 🌐 **Web-to-Markdown Scraper:** Strip ads, scripts, navbars & extract clean LLM-optimized Markdown.
-- 🎯 **B2B Contact Discovery:** Extract verified business emails, phone numbers, and social links.
-- 🔧 **Auto-Repair JSON:** Automatically fix malformed or truncated JSON from LLMs.
-- 💻 **Tech Stack Detector:** Detect CMS, JS frameworks (Next.js, React), and analytics.
-- 🛡️ **Prompt Injection Scanner:** Protect against indirect prompt injections and jailbreak attacks.
-- 🔒 **PII Masker:** Detect and redact API keys, credentials, and credit card numbers.
+[![Browse 85 MCP Servers](https://img.shields.io/badge/Browse-85%20MCP%20Servers-7c3aed?style=for-the-badge)](https://mcp-hub.agentweb-hub.workers.dev)
+[![Hire / Custom MCP Development](https://img.shields.io/badge/Hire%20%2F%20Custom%20MCP%20Development-f97316?style=for-the-badge)](mailto:amygraphics@gmail.com?subject=Custom%20MCP%20Development)
 
-## 🚀 Quick Install in Claude Desktop & Cursor
+## 🚀 Hire / Custom MCP Development
 
-Add to your `claude_desktop_config.json`:
+Need a private MCP for your company, workflow or data source? We design, build, deploy and publish production-ready MCP servers with typed schemas, live integrations, evidence-first outputs, icons, documentation and Smithery distribution.
+
+**Request custom MCP development:** [Hire / Custom MCP Development](mailto:amygraphics@gmail.com?subject=Custom%20MCP%20Development)
+
+## Browse the Hub
+
+👉 **[Open AgentWeb MCP Hub](https://mcp-hub.agentweb-hub.workers.dev)**
+
+85 MCP servers covering live intelligence, execution workflows, proprietary business operations, security, data quality, procurement, customer success and growth.
+
+Free tier: 10 requests/day. Pro lifetime access: $7.99 single server or $14.99 all-access.
+
+## Universal MCP connection
 
 ```json
 {
   "mcpServers": {
     "agentweb": {
-      "command": "npx",
-      "args": ["-y", "agentweb-mcp"]
+      "url": "https://agentsuite-api.agentweb-hub.workers.dev/mcp"
     }
   }
 }
 ```
 
-## 🛠️ Tools Included
-- `extract_web_markdown`: Converts any webpage to clean semantic Markdown.
-- `extract_b2b_contacts`: Extracts emails, phones, and social links.
-- `repair_broken_json`: Auto-repairs broken LLM JSON.
-- `detect_tech_stack`: Analyzes site technologies.
-- `scan_prompt_injection`: Scans prompts for adversarial jailbreaks.
-- `mask_sensitive_pii`: Redacts secrets, API keys, and sensitive PII.
+## Included capabilities
 
----
-Built by [tofan96you](https://github.com/tofan96you)
+- 🌐 Web-to-Markdown scraping
+- 🎯 B2B contact discovery
+- 🔧 JSON repair
+- 💻 Tech stack detection
+- 🛡️ Prompt injection scanning
+- 🔒 PII masking
+- 🎯 Live EU tender intelligence
+- 🚦 Website and API health monitoring
+- 🧪 Data quality and schema validation
+- ⚖️ Regulatory and sanctions intelligence
+- 📄 Contract operations
+- 🔁 Customer renewals
+- 🚨 Product recall monitoring
 
+## Payment
 
-## 💰 Pricing
+Gumroad: https://amygraphics.gumroad.com/l/mcp-pro
 
-**Start free — 10 requests/day, no signup, no card.** Upgrade only if it earns a place in your workflow.
+Solana USDC:
 
-| Plan | Price | Pay with |
-|------|-------|----------|
-| **Free** | $0 | 10 requests/day — no signup needed |
-| **Pro** (this server only) | **$7.99** lifetime | 💳 Gumroad **or** 🪙 Solana USDC |
-| **All-Access Suite** (all 44+ servers) | **$14.99** lifetime | 💳 Gumroad **or** 🪙 Solana USDC |
-
-### 💳 Option 1 — Gumroad (PayPal & Credit Cards)
-
-👉 **[amygraphics.gumroad.com/l/mcp-pro](https://amygraphics.gumroad.com/l/mcp-pro)** — select *Single MCP Server* ($7.99) or *All-Access Lifetime Suite* ($14.99). Instant license key delivery.
-
-### 🪙 Option 2 — Solana USDC (instant, no account needed)
-
-Send **$7.99 USDC** (single) or **$14.99 USDC** (all-access) to:
-
-```
+```text
 8sDLX3okSV974wdjdeKhN9uWLZDr45DeGCJ28zgTLEdJ
 ```
 
-Then POST your transaction signature to the `/verify-solana` endpoint to activate your lifetime license instantly.
+Built by [tofan96you](https://github.com/tofan96you) · [GitHub](https://github.com/tofan96you/agentweb-mcp)
